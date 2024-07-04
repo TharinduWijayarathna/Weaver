@@ -21,8 +21,8 @@
 			<div class="col-lg-5">
 
 				<a href="index.html">
-					<img class="light-mode-item h-40px" src="assets/images/logo.svg" alt="logo">
-					<img class="dark-mode-item h-40px" src="assets/images/logo-light.svg" alt="logo">
+					<img class="light-mode-item h-40px" src="assets/client/images/logo.svg" alt="logo">
+					<img class="dark-mode-item h-40px" src="assets/client/images/logo-light.svg" alt="logo">
 				</a>
 
 				<p class="mt-4 mb-2">A Bootstrap theme that's both stylish and functional, perfect for any type of technology or corporate website.</p>
@@ -95,7 +95,7 @@
 		<div class="row g-3">
 
 			<div class="col-4">
-				<img class="rounded-2 bg-light p-2" src="assets/images/shop/02.png" alt="avatar">
+				<img class="rounded-2 bg-light p-2" src="assets/client/images/shop/02.png" alt="avatar">
 			</div>
 			<div class="col-8">
 				<p class="heading-color fw-semibold mb-1">Round neck cotton t-shirt</p>

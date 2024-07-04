@@ -3,8 +3,8 @@
 		<div class="container">
 
 			<a class="navbar-brand me-5" href="index.html">
-				<img class="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">
-				<img class="dark-mode-item navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
+				<img class="light-mode-item navbar-brand-item" src="assets/client/images/logo.svg" alt="logo">
+				<img class="dark-mode-item navbar-brand-item" src="assets/client/images/logo-light.svg" alt="logo">
 			</a>
 
 			<div class="navbar-collapse collapse" id="navbarCollapse">
@@ -197,7 +197,7 @@
 
 										<div class="card bg-transparent">
 
-											<img src="assets/images/portfolio/list/02.jpg" class="card-img" alt="">
+											<img src="assets/client/images/portfolio/list/02.jpg" class="card-img" alt="">
 
 											<div class="card-body px-0 text-start pb-0">
 												<h6><a href="#">Brushstrokes and Beyond</a></h6>

@@ -7,7 +7,7 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        @include('libraries.styles')
+        @include('libraries.client.styles')
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -16,18 +16,18 @@
     <body>
         <main>
 
-            @include('components.main.header')
+            @include('components.main.client.header')
 
             {{ $slot }}
 
-            @include('components.main.footer')
+            @include('components.main.client.footer')
 
         </main>
 
 
         @stack('modals')
 
-        @include('libraries.scripts')
+        @include('libraries.client.scripts')
 
         @livewireScripts
     </body>
