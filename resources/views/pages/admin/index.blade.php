@@ -1,4 +1,6 @@
 <x-admin-layout>
+    @section('page_title', 'Your Page Title')
+    @section('page_description', 'Your Page Description')
     <main>
         <!-- Main dashboard content-->
         <div class="container-xl p-5">

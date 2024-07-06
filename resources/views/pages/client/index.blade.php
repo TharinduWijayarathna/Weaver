@@ -1,8 +1,8 @@
 <x-app-layout>
-    <!-- =======================
-    Main Banner START -->
+    @section('page_title', 'Your Page Title')
+    @section('page_description', 'Your Page Description')
     <section class="pt-5 pt-xl-7">
-        <!-- Slider START -->
+
         <div class="swiper overflow-hidden pt-5"
             data-swiper-options='{
         "autoplay":{
@@ -15,20 +15,16 @@
         }}'>
 
             <div class="swiper-wrapper">
-                <!-- Slider item -->
                 <div class="swiper-slide">
                     <div class="card overflow-hidden h-500px h-xl-750px rounded-0"
                         style="background-image:url({{ asset('assets/client/images/shop/bg/01.jpg') }}); background-position: center left; background-size: cover;">
-                        <!-- Bg overlay -->
                         <div class="bg-overlay bg-dark opacity-5 d-lg-none"></div>
-                        <!-- Card image overlay -->
                         <div class="card-img-overlay d-flex align-items-center">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-11 col-lg-8 col-xl-5">
                                         <span class="d-inline-block text-bg-dark small rounded-pill px-3 py-2 mb-4">New
                                             release mizz-VR</span>
-                                        <!-- Title -->
                                         <h1 class="text-white display-6 mb-4">Dive into Virtual Reality Adventure
                                         </h1>
 
@@ -44,13 +40,10 @@
                     </div>
                 </div>
 
-                <!-- Slider item -->
                 <div class="swiper-slide">
                     <div class="card overflow-hidden h-500px h-xl-750px rounded-0"
                         style="background-image:url({{ asset('assets/client/images/shop/bg/02.jpg') }}); background-position: center left; background-size: cover;">
-                        <!-- Bg overlay -->
                         <div class="bg-overlay bg-dark opacity-5 d-lg-none"></div>
-                        <!-- Card image overlay -->
                         <div class="card-img-overlay d-flex align-items-center">
                             <div class="container">
                                 <div class="row">
@@ -58,7 +51,6 @@
 
                                         <p class="fs-4 fw-normal text-white mb-3">Festival Collection <span
                                                 class="text-bg-dark rounded px-3">2023</span></p>
-                                        <!-- Title -->
                                         <h1 class="text-white display-4 mb-3">FLAT 50% OFF</h1>
 
                                         <p class="text-white mb-4"> Step into a world of quality and craftsmanship –
@@ -74,26 +66,18 @@
                 </div>
             </div>
 
-            <!-- Slider Pagination -->
             <div class="swiper-pagination swiper-pagination-line position-absolute bottom-0 mb-3"></div>
         </div>
-        <!-- Slider END -->
     </section>
-    <!-- =======================
-Main Banner END -->
 
-    <!-- =======================
-Category START -->
     <section class="pt-0">
         <div class="container">
-            <!-- Title -->
             <div class="d-sm-flex justify-content-between align-items-center mb-4">
                 <h3>Featured category</h3>
                 <a class="icon-link icon-link-hover text-body-secondary text-primary-hover" href="#">View all<i
                         class="bi bi-arrow-right"></i> </a>
             </div>
 
-            <!-- Slider START -->
             <div class="swiper"
                 data-swiper-options='{
         "spaceBetween": 30,
@@ -109,10 +93,9 @@ Category START -->
         }}'>
 
                 <div class="swiper-wrapper">
-                    <!-- Item -->
                     <div class="swiper-slide">
                         <div class="card card-body border-primary-hover border bg-transparent text-center">
-                            <!-- Svg -->
+
                             <figure class="text-center">
                                 <svg class="text-primary" width="60" height="60" viewBox="0 0 50 50"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,15 +131,13 @@ Category START -->
                                         fill="currentColor" fill-opacity="0.4" />
                                 </svg>
                             </figure>
-                            <!-- Title -->
                             <h6 class="mb-0"><a href="#" class="stretched-link">Fashion</a></h6>
                         </div>
                     </div>
 
-                    <!-- Item -->
                     <div class="swiper-slide">
                         <div class="card card-body border-primary-hover border bg-transparent text-center">
-                            <!-- Svg -->
+
                             <figure class="text-center">
                                 <svg class="text-primary" width="60" height="60" viewBox="0 0 60 60"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -178,15 +159,15 @@ Category START -->
                                     <path d="M11.7188 48.875V51.9375H22.4375V48.875H11.7188Z" fill="currentColor" />
                                 </svg>
                             </figure>
-                            <!-- Title -->
+
                             <h6 class="mb-0"><a href="#" class="stretched-link">Electronics</a></h6>
                         </div>
                     </div>
 
-                    <!-- Item -->
+
                     <div class="swiper-slide">
                         <div class="card card-body border-primary-hover border bg-transparent text-center">
-                            <!-- Svg -->
+
                             <figure class="text-center">
                                 <svg class="text-primary" width="60" height="60" viewBox="0 0 60 60"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,15 +179,15 @@ Category START -->
                                         fill="currentColor" />
                                 </svg>
                             </figure>
-                            <!-- Title -->
+
                             <h6 class="mb-0"><a href="#" class="stretched-link">Games</a></h6>
                         </div>
                     </div>
 
-                    <!-- Item -->
+
                     <div class="swiper-slide">
                         <div class="card card-body border-primary-hover border bg-transparent text-center">
-                            <!-- Svg -->
+
                             <figure class="text-center">
                                 <svg class="text-primary" width="60" height="60" viewBox="0 0 60 60"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -224,15 +205,15 @@ Category START -->
                                         fill="currentColor" />
                                 </svg>
                             </figure>
-                            <!-- Title -->
+
                             <h6 class="mb-0"><a href="#" class="stretched-link">Books</a></h6>
                         </div>
                     </div>
 
-                    <!-- Item -->
+
                     <div class="swiper-slide">
                         <div class="card card-body border-primary-hover border bg-transparent text-center">
-                            <!-- Svg -->
+
                             <figure class="text-center">
                                 <svg class="text-primary" width="60" height="60" viewBox="0 0 60 60"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -254,15 +235,15 @@ Category START -->
                                     <path d="M13 7H47V49H13V7Z" fill="currentColor" />
                                 </svg>
                             </figure>
-                            <!-- Title -->
+
                             <h6 class="mb-0"><a href="#" class="stretched-link">Mobiles</a></h6>
                         </div>
                     </div>
 
-                    <!-- Item -->
+
                     <div class="swiper-slide">
                         <div class="card card-body border-primary-hover border bg-transparent text-center">
-                            <!-- Svg -->
+
                             <figure class="text-center">
                                 <svg class="text-primary" width="60" height="60" viewBox="0 0 60 60"
                                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -283,25 +264,17 @@ Category START -->
                                         fill="currentColor" />
                                 </svg>
                             </figure>
-                            <!-- Title -->
                             <h6 class="mb-0"><a href="#" class="stretched-link">Bags</a></h6>
                         </div>
                     </div>
                 </div>
-
-                <!-- Slider Pagination -->
                 <div class="swiper-pagination swiper-pagination-primary position-relative mt-4"></div>
             </div>
         </div>
     </section>
-    <!-- =======================
-Category END -->
 
-    <!-- =======================
-Product grid START -->
     <section class="pt-0">
         <div class="container">
-            <!-- Title -->
             <div class="d-sm-flex justify-content-between align-items-center mb-4">
                 <h3>What's trending now</h3>
                 <a class="icon-link icon-link-hover text-body-secondary text-primary-hover" href="#">See all
@@ -309,7 +282,6 @@ Product grid START -->
             </div>
 
             <div class="row g-4 g-sm-5">
-                <!-- Adv -->
                 <div class="col-lg-8 col-xl-6">
                     <div class="card p-0 h-100"
                         style="background-image:url({{ asset('assets/client/images/shop/bg/03.jpg') }}"; background-position:
@@ -323,25 +295,20 @@ Product grid START -->
                     </div>
                 </div>
 
-                <!-- Product item -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="card border bg-transparent overflow-hidden p-0 h-100">
-                        <!-- Overlay -->
+
                         <div class="position-absolute top-0 start-0 p-3">
                             <span class="badge text-bg-dark">Featured</span>
                         </div>
 
-                        <!-- Image -->
                         <div class="card-header bg-light rounded m-2">
                             <img src="{{ asset('assets/client/images/shop/02.png') }}" alt="">
                         </div>
 
-                        <!-- Card body -->
                         <div class="card-body pb-0">
-                            <!-- Title -->
                             <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">Classic round
                                     neck t-shirt</a></h6>
-                            <!-- Badge and price -->
                             <ul class="list-inline">
                                 <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
                                 </li>
@@ -356,7 +323,6 @@ Product grid START -->
                             </ul>
                         </div>
 
-                        <!-- Card footer -->
                         <div class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                             <p class="fw-bold text-success mb-0">$103.00</p>
                             <a href="#" class="btn btn-dark mb-0 z-index-2"><i class="bi bi-cart"></i></a>
@@ -364,20 +330,16 @@ Product grid START -->
                     </div>
                 </div>
 
-                <!-- Product item -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="card border bg-transparent overflow-hidden p-0 h-100">
-                        <!-- Image -->
                         <div class="card-header bg-light rounded m-2">
                             <img src="{{ asset('assets/client/images/shop/03.png') }}" alt="">
                         </div>
 
-                        <!-- Card body -->
                         <div class="card-body pb-0">
-                            <!-- Title -->
                             <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">Premium cotton
                                     baseball cap</a></h6>
-                            <!-- Badge and price -->
+
                             <ul class="list-inline">
                                 <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
                                 </li>
@@ -392,7 +354,7 @@ Product grid START -->
                             </ul>
                         </div>
 
-                        <!-- Card footer -->
+
                         <div class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                             <p class="fw-bold text-success mb-0">$98.00</p>
                             <a href="#" class="btn btn-dark mb-0 z-index-2"><i class="bi bi-cart"></i></a>
@@ -400,25 +362,20 @@ Product grid START -->
                     </div>
                 </div>
 
-                <!-- Product item -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="card border bg-transparent overflow-hidden p-0 h-100">
-                        <!-- Overlay -->
+
                         <div class="position-absolute top-0 start-0 p-3">
                             <span class="badge text-bg-danger">30% off</span>
                         </div>
 
-                        <!-- Image -->
                         <div class="card-header bg-light rounded m-2">
                             <img src="{{ asset('assets/client/images/shop/04.png') }}" alt="">
                         </div>
 
-                        <!-- Card body -->
                         <div class="card-body pb-0">
-                            <!-- Title -->
                             <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">High
                                     performance headphones with Noise cancellation</a></h6>
-                            <!-- Badge and price -->
                             <ul class="list-inline">
                                 <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
                                 </li>
@@ -433,7 +390,6 @@ Product grid START -->
                             </ul>
                         </div>
 
-                        <!-- Card footer -->
                         <div class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                             <div class="d-flex align-items-center gap-2 justify-content-center">
                                 <p class="fw-bold text-success mb-0">$150.00</p>
@@ -444,20 +400,15 @@ Product grid START -->
                     </div>
                 </div>
 
-                <!-- Product item -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="card border bg-transparent overflow-hidden p-0 h-100">
-                        <!-- Image -->
                         <div class="card-header bg-light rounded m-2">
                             <img src="{{ asset('assets/client/images/shop/01.png') }}" alt="">
                         </div>
 
-                        <!-- Card body -->
                         <div class="card-body pb-0">
-                            <!-- Title -->
                             <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">Premium
                                     stainless steel water bottle</a></h6>
-                            <!-- Badge and price -->
                             <ul class="list-inline">
                                 <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
                                 </li>
@@ -472,7 +423,6 @@ Product grid START -->
                             </ul>
                         </div>
 
-                        <!-- Card footer -->
                         <div class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                             <p class="fw-bold text-success mb-0">$40.00</p>
                             <a href="#" class="btn btn-dark mb-0 z-index-2"><i class="bi bi-cart"></i></a>
@@ -480,20 +430,19 @@ Product grid START -->
                     </div>
                 </div>
 
-                <!-- Product item -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="card border bg-transparent overflow-hidden p-0 h-100">
-                        <!-- Image -->
+
                         <div class="card-header bg-light rounded m-2">
                             <img src="{{ asset('assets/client/images/shop/05.png') }}" alt="">
                         </div>
 
-                        <!-- Card body -->
+
                         <div class="card-body pb-0">
-                            <!-- Title -->
+
                             <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">The ultimate
                                     smartphone for modern lifestyles</a></h6>
-                            <!-- Badge and price -->
+
                             <ul class="list-inline">
                                 <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
                                 </li>
@@ -508,7 +457,6 @@ Product grid START -->
                             </ul>
                         </div>
 
-                        <!-- Card footer -->
                         <div class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                             <p class="fw-bold text-success mb-0">$215.00</p>
                             <a href="#" class="btn btn-dark mb-0 z-index-2"><i class="bi bi-cart"></i></a>
@@ -516,20 +464,17 @@ Product grid START -->
                     </div>
                 </div>
 
-                <!-- Product item -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="card border bg-transparent overflow-hidden p-0 h-100">
-                        <!-- Image -->
                         <div class="card-header bg-light rounded m-2">
                             <img src="{{ asset('assets/client/images/shop/06.png') }}" alt="">
                         </div>
 
-                        <!-- Card body -->
                         <div class="card-body pb-0">
-                            <!-- Title -->
+
                             <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">Vintage
                                     inspired bluetooth radio speaker</a></h6>
-                            <!-- Badge and price -->
+
                             <ul class="list-inline">
                                 <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i>
                                 </li>
@@ -544,7 +489,6 @@ Product grid START -->
                             </ul>
                         </div>
 
-                        <!-- Card footer -->
                         <div class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                             <p class="fw-bold text-success mb-0">$142.00</p>
                             <a href="#" class="btn btn-dark mb-0 z-index-2"><i class="bi bi-cart"></i></a>
@@ -554,15 +498,11 @@ Product grid START -->
             </div>
         </div>
     </section>
-    <!-- =======================
-Product grid END -->
 
-    <!-- =======================
-Features START -->
     <section class="pt-0">
         <div class="container">
             <div class="row g-4 g-sm-6">
-                <!-- Item -->
+
                 <div class="col-sm-6 col-lg-3">
                     <div class="card card-body bg-transparent p-0">
                         <div class="icon-lg rounded-circle bg-info bg-opacity-10 text-info mb-4">
@@ -574,7 +514,6 @@ Features START -->
                     </div>
                 </div>
 
-                <!-- Item -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="card card-body bg-transparent p-0">
                         <div class="icon-lg rounded-circle bg-warning bg-opacity-15 text-warning mb-4">
@@ -586,7 +525,6 @@ Features START -->
                     </div>
                 </div>
 
-                <!-- Item -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="card card-body bg-transparent p-0">
                         <div class="icon-lg rounded-circle bg-danger bg-opacity-10 text-danger mb-4">
@@ -598,7 +536,6 @@ Features START -->
                     </div>
                 </div>
 
-                <!-- Item -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="card card-body bg-transparent p-0">
                         <div class="icon-lg rounded-circle bg-primary bg-opacity-10 text-primary mb-4">
@@ -612,14 +549,10 @@ Features START -->
             </div>
         </div>
     </section>
-    <!-- =======================
-Features END -->
 
-    <!-- =======================
-Product START -->
     <section class="bg-parallax position-relative" style="background:url({{ asset('assets/client/images/shop/bg/04.jpg') }}"
         no-repeat; background-size:cover; background-position:center;">
-        <!-- Bg overlay -->
+
         <div class="bg-overlay bg-dark opacity-6"></div>
 
         <div class="container position-relative z-index-2">
@@ -630,7 +563,6 @@ Product START -->
                     <p class="text-white">Discover the perfect fusion of modern trends and timeless classics,
                         meticulously curated to complement your unique taste.</p>
 
-                    <!-- Slider arrow -->
                     <div class="d-flex gap-3 position-relative mt-5 mt-md-6">
                         <a href="#"
                             class="btn btn-outline-white btn-icon rounded-circle mb-0 swiper-button-prev"><i
@@ -643,7 +575,6 @@ Product START -->
 
                 <div class="col-xl-7 col-xxl-6 ms-auto">
 
-                    <!-- Slider START -->
                     <div class="swiper"
                         data-swiper-options='{
                 "spaceBetween": 30,
@@ -666,10 +597,9 @@ Product START -->
                 }}'>
 
                         <div class="swiper-wrapper">
-                            <!-- Slider items -->
                             <div class="swiper-slide">
                                 <div class="card border overflow-hidden p-0 h-100">
-                                    <!-- Wishlist -->
+
                                     <div
                                         class="position-absolute start-0 top-0 d-flex align-items-start w-100 z-index-2 p-3">
                                         <div class="badge text-bg-dark"><i
@@ -678,19 +608,17 @@ Product START -->
                                                 class="bi bi-heart"></i></a>
                                     </div>
 
-                                    <!-- Image -->
                                     <div class="card-header bg-transparent pb-0">
                                         <img src="{{ asset('assets/client/images/shop/08.png') }}" alt="">
                                     </div>
 
-                                    <!-- Card body -->
                                     <div class="card-body pt-0">
                                         <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">Mizz
                                                 dunk low</a></h6>
                                         <p class="mb-0">Man's training shoes </p>
                                     </div>
 
-                                    <!-- Card footer -->
+
                                     <div
                                         class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                                         <div class="d-flex align-items-center gap-2 justify-content-center">
@@ -702,10 +630,9 @@ Product START -->
                                 </div>
                             </div>
 
-                            <!-- Slider items -->
                             <div class="swiper-slide">
                                 <div class="card border overflow-hidden p-0 h-100">
-                                    <!-- Wishlist -->
+
                                     <div
                                         class="position-absolute start-0 top-0 d-flex align-items-start w-100 z-index-2 p-3">
                                         <div class="badge text-bg-dark"><i
@@ -714,19 +641,16 @@ Product START -->
                                                 class="bi bi-heart-fill text-danger"></i></a>
                                     </div>
 
-                                    <!-- Image -->
                                     <div class="card-header bg-transparent pb-0">
                                         <img src="{{ asset('assets/client/images/shop/09.png') }}" alt="">
                                     </div>
 
-                                    <!-- Card body -->
                                     <div class="card-body pt-0">
                                         <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">Mizz
                                                 metcon russell</a></h6>
                                         <p class="mb-0">Woman's training shoes </p>
                                     </div>
 
-                                    <!-- Card footer -->
                                     <div
                                         class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                                         <div class="d-flex align-items-center gap-2 justify-content-center">
@@ -738,10 +662,9 @@ Product START -->
                                 </div>
                             </div>
 
-                            <!-- Slider items -->
                             <div class="swiper-slide">
                                 <div class="card border overflow-hidden p-0 h-100">
-                                    <!-- Wishlist -->
+
                                     <div
                                         class="position-absolute start-0 top-0 d-flex align-items-start w-100 z-index-2 p-3">
                                         <div class="badge text-bg-dark"><i
@@ -750,19 +673,18 @@ Product START -->
                                                 class="bi bi-heart"></i></a>
                                     </div>
 
-                                    <!-- Image -->
+
                                     <div class="card-header bg-transparent pb-0">
                                         <img src="{{ asset('assets/client/images/shop/07.png') }}" alt="">
                                     </div>
 
-                                    <!-- Card body -->
                                     <div class="card-body pt-0">
                                         <h6 class="card-title"><a href="shop-detail.html" class="stretched-link">Air
                                                 Max Pulse Roam</a></h6>
                                         <p class="mb-0">Man's sports and casual were</p>
                                     </div>
 
-                                    <!-- Card footer -->
+
                                     <div
                                         class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                                         <p class="fw-bold text-success mb-0">$245</p>
@@ -771,10 +693,9 @@ Product START -->
                                 </div>
                             </div>
 
-                            <!-- Slider items -->
                             <div class="swiper-slide">
                                 <div class="card border overflow-hidden p-0 h-100">
-                                    <!-- Wishlist -->
+
                                     <div
                                         class="position-absolute start-0 top-0 d-flex align-items-start w-100 z-index-2 p-3">
                                         <div class="badge text-bg-dark"><i
@@ -783,19 +704,18 @@ Product START -->
                                                 class="bi bi-heart"></i></a>
                                     </div>
 
-                                    <!-- Image -->
+
                                     <div class="card-header bg-transparent pb-0">
                                         <img src="{{ asset('assets/client/images/shop/10.png') }}" alt="">
                                     </div>
 
-                                    <!-- Card body -->
+
                                     <div class="card-body pt-0">
                                         <h6 class="card-title"><a href="shop-detail.html"
                                                 class="stretched-link">Jordan victori once</a></h6>
                                         <p class="mb-0">Man's printed slides </p>
                                     </div>
 
-                                    <!-- Card footer -->
                                     <div
                                         class="card-footer bg-transparent d-flex justify-content-between align-items-center pt-0">
                                         <div class="d-flex align-items-center gap-2 justify-content-center">
@@ -812,17 +732,15 @@ Product START -->
             </div>
         </div>
     </section>
-    <!-- ======================= Product END -->
 
-    <!-- ======================= Product box and CTA START -->
     <section>
         <div class="container">
             <div class="row g-lg-6">
 
                 <div class="col-lg-6 mb-6 mb-lg-0">
-                    <!-- Newsletter -->
+
                     <div class="card card-body bg-dark overflow-hidden p-sm-6 mb-6" data-bs-theme="dark">
-                        <!-- SVG decoration -->
+
                         <figure class="text-primary position-absolute top-0 start-0 mt-n3 ms-n4">
                             <svg width="111" height="71" viewBox="0 0 111 71" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -849,10 +767,10 @@ Product START -->
                                     fill="currentColor"></path>
                             </svg>
                         </figure>
-                        <!-- Title and content -->
+
                         <h4 class="mb-3 position-relative">Subscribe to our email and get 20% off</h4>
                         <p class="mb-4">Elevate Your Look with Our Latest Trendsetting Collections.</p>
-                        <!-- Input -->
+
                         <form class="input-group mb-2">
                             <input class="form-control form-control-lg rounded border bg-light me-3" type="email"
                                 placeholder="Enter your email">
@@ -861,14 +779,14 @@ Product START -->
                         </form>
                     </div>
 
-                    <!-- Product -->
+
                     <div class="card bg-light border overflow-hidden p-xl-0">
                         <div class="row align-items-center">
-                            <!-- Image -->
+
                             <div class="col-sm-4">
                                 <img src="{{ asset('assets/client/images/shop/game.png') }}" class="ms-n5" alt="">
                             </div>
-                            <!-- Title and content -->
+
                             <div class="col-sm-8">
                                 <div class="card-body">
                                     <h4 class="mb-3">Touch motion controller at $35 USD</h4>
@@ -882,9 +800,9 @@ Product START -->
                 </div>
 
                 <div class="col-lg-6">
-                    <!-- Product -->
+
                     <div class="card bg-light overflow-hidden h-100 p-0">
-                        <!-- Title and content -->
+
                         <div class="card-body text-center pt-5 px-sm-7 pb-0">
                             <h3 class="fw-semibold mb-3">Hurricane smart watch pro at $89 USD</h3>
                             <p class="mb-3">Offer real-time tracking information, so customers can monitor the
@@ -892,7 +810,7 @@ Product START -->
                             <a class="btn btn-dark icon-link icon-link-hover mb-0" href="shop-grid.html">Browse
                                 products<i class="bi bi-arrow-right"></i> </a>
                         </div>
-                        <!-- Image -->
+
                         <div class="card-footer bg-light px-sm-8 px-md-9 px-lg-7 px-xl-8 pt-0">
                             <img class="mb-n7" src="{{ asset('assets/client/images/shop/watch-01.png') }}" alt="">
                         </div>
@@ -902,11 +820,7 @@ Product START -->
             </div>
         </div>
     </section>
-    <!-- =======================
-Product box and CTA END -->
 
-    <!-- =======================
-Brands START -->
     <section class="pt-0">
         <div class="container">
             <div class="row align-items-center">
@@ -918,42 +832,42 @@ Brands START -->
 
                 <div class="col-lg-7 text-center ms-auto">
                     <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4 g-md-6">
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/01.svg') }}"
                                     class="grayscale" alt="client-img"></a>
                         </div>
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/02.svg') }}"
                                     class="grayscale" alt="client-img"></a>
                         </div>
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/03.svg') }}"
                                     class="grayscale" alt="client-img"></a>
                         </div>
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/04.svg') }}"
                                     class="grayscale" alt="client-img"></a>
                         </div>
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/05.svg') }}"
                                     class="grayscale" alt="client-img"></a>
                         </div>
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/06.svg') }}"
                                     class="grayscale" alt="client-img"></a>
                         </div>
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/07.svg') }}"
                                     class="grayscale" alt="client-img"></a>
                         </div>
-                        <!-- Image -->
+
                         <div class="col">
                             <a href="#"><img src="{{ asset('assets/client/images/client/08.svg') }}"
                                     class="grayscale" alt="client-img"></a>
@@ -963,6 +877,5 @@ Brands START -->
             </div>
         </div>
     </section>
-    <!-- =======================
-Brands END -->
+
 </x-app-layout>

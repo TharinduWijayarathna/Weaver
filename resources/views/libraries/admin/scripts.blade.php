@@ -3,7 +3,7 @@
  </script>
  <!-- Load global scripts-->
  <script type="module" src="{{ asset('assets/admin/js/material.js') }}"></script>
- <script src="{{ asset('') }}js/scripts.js"></script>
+ <script src="{{ asset('assets/admin/js/scripts.js') }}"></script>
  <!--  Load Chart.js via CDN-->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" crossorigin="anonymous"></script>
  <!--  Load Chart.js customized defaults-->
