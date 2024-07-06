@@ -21,8 +21,7 @@
 			<div class="col-lg-5">
 
 				<a href="index.html">
-					<img class="light-mode-item h-40px" src="assets/client/images/logo.svg" alt="logo">
-					<img class="dark-mode-item h-40px" src="assets/client/images/logo-light.svg" alt="logo">
+					<img class="light-mode-item h-40px" src="{{ asset('assets/common/images/logo-white.png') }}" alt="logo">
 				</a>
 
 				<p class="mt-4 mb-2">A Bootstrap theme that's both stylish and functional, perfect for any type of technology or corporate website.</p>

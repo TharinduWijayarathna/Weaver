@@ -3,8 +3,7 @@
 		<div class="container">
 
 			<a class="navbar-brand me-5" href="index.html">
-				<img class="light-mode-item navbar-brand-item" src="assets/client/images/logo.svg" alt="logo">
-				<img class="dark-mode-item navbar-brand-item" src="assets/client/images/logo-light.svg" alt="logo">
+				<img class="light-mode-item navbar-brand-item" src="{{ asset('assets/common/images/logo.png') }}" alt="logo">
 			</a>
 
 			<div class="navbar-collapse collapse" id="navbarCollapse">
