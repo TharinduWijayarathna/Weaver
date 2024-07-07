@@ -5,87 +5,14 @@
                 class="material-icons">menu</i></button>
         <!-- Navbar brand-->
         <a class="navbar-brand me-auto" href="index.html">
-            <div class="text-uppercase font-monospace">Material Admin Pro</div>
+            <div class="text-uppercase font-monospace">Weaver</div>
         </a>
         <!-- Navbar items-->
         <div class="d-flex align-items-center mx-3 me-lg-0">
-            <!-- Navbar-->
-            <ul class="navbar-nav d-none d-lg-flex">
-                <li class="nav-item"><a class="nav-link" href="index.html">Overview</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://docs.startbootstrap.com/material-admin-pro"
-                        target="_blank">Documentation</a></li>
-            </ul>
+
             <!-- Navbar buttons-->
             <div class="d-flex">
-                <!-- Messages dropdown-->
-                <div class="dropdown dropdown-notifications d-none d-sm-block">
-                    <button class="btn btn-lg btn-icon dropdown-toggle me-3" id="dropdownMenuMessages" type="button"
-                        data-bs-toggle="dropdown" aria-expanded="false"><i
-                            class="material-icons">mail_outline</i></button>
-                    <ul class="dropdown-menu dropdown-menu-end me-3 mt-3 py-0 overflow-hidden"
-                        aria-labelledby="dropdownMenuMessages">
-                        <li>
-                            <h6 class="dropdown-header bg-primary text-white fw-500 py-3">Messages</h6>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider my-0" />
-                        </li>
-                        <li>
-                            <a class="dropdown-item unread" href="#!">
-                                <div class="dropdown-item-content">
-                                    <div class="dropdown-item-content-text">
-                                        <div class="text-truncate d-inline-block" style="max-width: 18rem">Hi there,
-                                            I had a question about something, is there any way you can help me out?
-                                        </div>
-                                    </div>
-                                    <div class="dropdown-item-content-subtext">Mar 12, 2023 · Juan Babin</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider my-0" />
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#!">
-                                <div class="dropdown-item-content">
-                                    <div class="dropdown-item-content-text">
-                                        <div class="text-truncate d-inline-block" style="max-width: 18rem">Thanks
-                                            for the assistance the other day, I wanted to follow up with you just to
-                                            make sure everyting is settled.</div>
-                                    </div>
-                                    <div class="dropdown-item-content-subtext">Mar 10, 2023 · Christine Hendersen
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider my-0" />
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#!">
-                                <div class="dropdown-item-content">
-                                    <div class="dropdown-item-content-text">
-                                        <div class="text-truncate d-inline-block" style="max-width: 18rem">Welcome
-                                            to our group! It's good to see new members and I know you will do great!
-                                        </div>
-                                    </div>
-                                    <div class="dropdown-item-content-subtext">Mar 8, 2023 · Celia J. Knight</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider my-0" />
-                        </li>
-                        <li>
-                            <a class="dropdown-item py-3" href="#!">
-                                <div class="d-flex align-items-center w-100 justify-content-end text-primary">
-                                    <div class="fst-button small">View all</div>
-                                    <i class="material-icons icon-sm ms-1">chevron_right</i>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+
                 <!-- Notifications and alerts dropdown-->
                 <div class="dropdown dropdown-notifications d-none d-sm-block">
                     <button class="btn btn-lg btn-icon dropdown-toggle me-3" id="dropdownMenuNotifications"

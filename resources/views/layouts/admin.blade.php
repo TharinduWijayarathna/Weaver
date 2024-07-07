@@ -27,7 +27,9 @@
         <div id="layoutDrawer_content">
             <!-- Main page content-->
 
+            </main>
             {{ $slot }}
+            </main>
 
             @include('components.main.admin.footer')
         </div>
