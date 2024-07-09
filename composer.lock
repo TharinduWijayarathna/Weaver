@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10662401f38aae1c72be9472ee8681a5",
+    "content-hash": "9bfc6e20b9b0ec8b74c97385ac8c0f2c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -5966,6 +5966,59 @@
                 }
             ],
             "time": "2024-06-28T08:00:31+00:00"
+        },
+        {
+            "name": "tharindu/service-maker",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TharinduWijayarathna/ServiceMaker.git",
+                "reference": "e5ea40fd5d3d8a2554c72cc6c494ef447ec99119"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TharinduWijayarathna/ServiceMaker/zipball/e5ea40fd5d3d8a2554c72cc6c494ef447ec99119",
+                "reference": "e5ea40fd5d3d8a2554c72cc6c494ef447ec99119",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^10.0|^11.0",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Tharindu\\ServiceMaker\\ServiceMakerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tharindu\\ServiceMaker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tharindu Wijayarathna",
+                    "email": "wikum.dev@gmail.com"
+                }
+            ],
+            "description": "A Laravel package to generate service files via Artisan command.",
+            "keywords": [
+                "generator",
+                "laravel",
+                "service"
+            ],
+            "support": {
+                "issues": "https://github.com/TharinduWijayarathna/ServiceMaker/issues",
+                "source": "https://github.com/TharinduWijayarathna/ServiceMaker/tree/v1.0.0"
+            },
+            "time": "2024-07-08T14:14:48+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
