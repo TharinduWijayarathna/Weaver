@@ -11,8 +11,6 @@
     @include('libraries.admin.styles')
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-    @livewireStyles
 </head>
 
 <body class="nav-fixed bg-light">
@@ -37,8 +35,6 @@
     @stack('modals')
 
     @include('libraries.admin.scripts')
-
-    @livewireScripts
 </body>
 
 </html>

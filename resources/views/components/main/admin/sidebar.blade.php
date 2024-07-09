@@ -32,6 +32,12 @@
                     Products
                 </a>
 
+                <!-- Drawer link (Dashboards)-->
+                <a class="nav-link" href="{{ route('customer.index') }}">
+                    <div class="nav-link-icon"><i class="material-icons">group</i></div>
+                    Customers
+                </a>
+
             </div>
         </div>
         <!-- Drawer footer        -->
