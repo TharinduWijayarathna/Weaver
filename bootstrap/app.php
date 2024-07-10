@@ -13,7 +13,7 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withSchedule(function (Schedule $schedule){
-        $schedule->command('telescope:clear')->weekly();
+        $schedule->command('telescope:clear --hours=48')->daily();
     })
     ->withMiddleware(function (Middleware $middleware) {
         //
