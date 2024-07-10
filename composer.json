@@ -10,6 +10,7 @@
         "laravel/horizon": "^5.25",
         "laravel/jetstream": "^5.1",
         "laravel/sanctum": "^4.0",
+        "laravel/telescope": "^5.1",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.0",
         "rappasoft/laravel-livewire-tables": "^3.2",
